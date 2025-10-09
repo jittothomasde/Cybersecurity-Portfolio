@@ -8,6 +8,7 @@ Explore the labs below:
 
 - [VSFTPD Exploit](./Metasploitable-Labs/VSFTPD-Exploit.md)
 - [Tomcat Manager Deploy Exploit](./Metasploitable-Labs/Tomcat-Deploy.md)
+- [Port Scanner Tool](./Metasploitable-Labs/Port-Scanner-Tool.md)
 
 More labs coming soon...
 
