@@ -14,7 +14,7 @@ The tool was successfully executed against the target Metasploitable 2 VM, rapid
 
 #### 1\. Core Concepts
 
-  * **Socket Programming (`socket` module):** The script uses the `$\text{socket}$` module to initiate `$\text{TCP}$` connection attempts `SOCK\STREAM` to a specific IP address and port number. The `connect\ex()` function is used because it returns an error code `( for success, meaning the port is open` instead of raising an exception, which is faster and cleaner for scanning.
+  * **Socket Programming (`socket` module):** The script uses the `socket` module to initiate `TCP` connection attempts `SOCK\STREAM` to a specific IP address and port number. The `connect\ex()` function is used because it returns an error code `( for success, meaning the port is open` instead of raising an exception, which is faster and cleaner for scanning.
   * **Concurrency ($\text{threading}$ module):** Network operations are I/O-bound (the computer spends most of its time waiting for a response). To overcome this performance bottleneck, the script utilizes $\text{threading}$ to execute multiple port checks simultaneously, dramatically reducing the overall scan time.
   * **Job Queue ($\text{Queue}$ module):** The range of ports to be scanned is loaded into a $\text{Queue}$. Multiple worker threads then constantly pull new ports (jobs) from the queue until it is empty, ensuring efficient job distribution.
   * **Output Management ($\text{threading.Lock}$):** A lock is used when printing to the console to ensure that multiple threads writing at the same time do not corrupt the terminal output.
