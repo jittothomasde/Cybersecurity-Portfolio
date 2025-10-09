@@ -20,7 +20,7 @@ Initial reconnaissance confirmed the presence of a web application server runnin
   * **Service Found:** Apache Tomcat/Coyote JSP Engine
   * **Port:** $\text{TCP 8180}$
 
-The **Tomcat Manager App** was found at $\text{http://192.168.56.101:8180/manager/html}$, exposing the application deployment interface.
+The **Tomcat Manager App** was found at ($\text{http://192.168.56.101:8180/manager/html}$), exposing the application deployment interface.
 
 #### 2\. Vulnerability Analysis: Weak Credentials
 
@@ -36,7 +36,7 @@ The Metasploit Framework was used to automate the payload generation, authentica
 
   * **Attacker IP (LHOST):** `192.168.56.102`
 
-  * **Module Used:** $\text{exploit/multi/http/tomcat\_mgr\_deploy}$
+  * **Module Used:** ($\text{exploit/multi/http/tomcat\_mgr\_deploy}$)
 
   * **Metasploit Commands:**
 
