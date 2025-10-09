@@ -2,7 +2,7 @@
 
 ### 📌 Executive Summary
 
-This project involved the development of a custom, multi-threaded `TCP}` port scanner written in Python 3. The objective was to demonstrate foundational skills in network socket programming, concurrency management, and scripting complex reconnaissance tasks.
+This project involved the development of a custom, multi-threaded `TCP` port scanner written in Python 3. The objective was to demonstrate foundational skills in network socket programming, concurrency management, and scripting complex reconnaissance tasks.
 
 The tool was successfully executed against the target Metasploitable 2 VM, rapidly identifying all open ports (21, 22, 80, 8180, etc.) significantly faster than a single-threaded implementation. This validates the ability to develop custom, efficient tools for the initial stages of a penetration test.
 
