@@ -28,8 +28,8 @@ This script is available in the $\text{/Scripts}$ directory as `fast_scanner.py`
 The script was executed on the Kali VM against the Metasploitable 2 target. The concurrent threading approach significantly reduced the total scan time compared to sequential methods.
 
   * **Execution Command:** `python3 fast_scanner.py [TARGET_IP] 1 10000`
-  * **Result Snapshot:** `./Images/fast_scanner_result.png`.
+  * **Result Snapshot:** `../Images/fast_scanner_result.png`.
 
-!Fast Scanner Result
+![Fast Scanner Result](../Images/fast_scanner_result.png)
 
 -----
