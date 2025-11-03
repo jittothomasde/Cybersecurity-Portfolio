@@ -58,7 +58,7 @@ Successful exploitation resulted in a $\text{Meterpreter session}$ on the target
   * **Resulting Shell Command:** $\text{sysinfo}$
   * **Resulting Session:** $\text{Meterpreter session 1 opened}$
 
-!Meterpreter session established
+![Meterpreter session established](./Images/tomcat.png)
 
 -----
 

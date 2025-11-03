@@ -29,7 +29,7 @@ The script was executed on the Kali VM against the Metasploitable 2 target. The 
 
   * **Execution Command:** `python3 fast_scanner.py [TARGET_IP] 1 10000`
   * **Result Snapshot:** `./Images/fast_scanner_result.png`.
-  
+
 !Fast Scanner Result
 
 -----
